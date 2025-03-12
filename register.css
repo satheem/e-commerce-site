@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #555;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Register Container */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.register-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-card h2 {
+    color: #3CB371; /* Mint Green */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    background: #f9f9f9;
+}
+
+.form-group input:focus {
+    border-color: #3CB371;
+    outline: none;
+}
+
+.btn {
+    background: #FF8C00; /* Soft Orange */
+    color: white;
+    padding: 14px 28px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 40px;
+    width: 100%;
+    border: 2px solid #FF8C00;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #3CB371; /* Mint Green */
+    color: white;
+    transition: background-color 0.3s;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .register-card {
+        padding: 20px;
+        width: 90%;
+    }
+}

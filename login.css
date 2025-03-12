@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9; /* Very light gray */
+    color: #555; /* Slightly darker text for readability */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Login Page Styles */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f8f7; /* Very light mint */
+}
+
+.login-card {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #3CB371; /* Mint Green */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: 600;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    color: #555;
+}
+
+input:focus {
+    outline: none;
+    border-color: #3CB371; /* Mint Green on focus */
+}
+
+.btn {
+    background: #3CB371; /* Mint Green */
+    color: white;
+    padding: 14px 28px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 40px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 2px solid #3CB371;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #FF8C00; /* Soft Orange */
+    border-color: #FF8C00;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .login-card {
+        padding: 30px 20px;
+    }
+}
