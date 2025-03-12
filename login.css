@@ -1,20 +1,18 @@
-/* General Styles */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f9f9f9; /* Very light gray */
-    color: #555; /* Slightly darker text for readability */
+    background-color: #f9f9f9;
+    color: #555;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-/* Login Page Styles */
 .login-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f2f8f7; /* Very light mint */
+    background-color: #f2f8f7;
 }
 
 .login-card {
@@ -27,7 +25,7 @@ body {
 }
 
 h2 {
-    color: #3CB371; /* Mint Green */
+    color: #3CB371;
     font-size: 2rem;
     margin-bottom: 20px;
 }
@@ -52,11 +50,11 @@ input {
 
 input:focus {
     outline: none;
-    border-color: #3CB371; /* Mint Green on focus */
+    border-color: #3CB371;
 }
 
 .btn {
-    background: #3CB371; /* Mint Green */
+    background: #3CB371;
     color: white;
     padding: 14px 28px;
     text-decoration: none;
@@ -69,11 +67,10 @@ input:focus {
 }
 
 .btn:hover {
-    background: #FF8C00; /* Soft Orange */
+    background: #FF8C00;
     border-color: #FF8C00;
 }
 
-/* Mobile Responsiveness */
 @media (max-width: 768px) {
     .login-card {
         padding: 30px 20px;

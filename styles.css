@@ -1,22 +1,20 @@
-/* General Styles */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f9f9f9; /* Very light gray */
-    color: #555; /* Slightly darker text for readability */
+    background-color: #f9f9f9;
+    color: #555;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-/* Navigation */
 nav {
-    background: #3CB371; /* Mint Green */
+    background: #3CB371;
     padding: 15px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap; /* Allows the nav to wrap on smaller screens */
-    position: relative; /* Needed for absolute positioning of the menu */
+    flex-wrap: wrap;
+    position: relative;
 }
 
 .logo {
@@ -46,7 +44,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Mobile Navigation Menu */
 nav .menu-toggle {
     display: none;
     flex-direction: column;
@@ -61,7 +58,6 @@ nav .menu-toggle div {
     border-radius: 4px;
 }
 
-/* Hero Section */
 .hero {
     background: url(img/hero.jpg) no-repeat center center/cover;
     padding: 100px 20px;
@@ -79,7 +75,7 @@ nav .menu-toggle div {
 }
 
 .btn {
-    background: #FF8C00; /* Soft Orange */
+    background: #FF8C00;
     color: white;
     padding: 14px 28px;
     text-decoration: none;
@@ -91,43 +87,42 @@ nav .menu-toggle div {
 }
 
 .btn:hover {
-    background: #3CB371; /* Mint Green */
+    background: #3CB371;
     color: white;
     transition: background-color 0.3s;
 }
 
-/* Categories */
 .categories {
     padding: 50px 20px;
-    background: #f2f8f7; /* Very light mint */
+    background: #f2f8f7;
 }
 
 .categories h2 {
-    color: #3CB371; /* Mint Green */
+    color: #3CB371;
     font-size: 2rem;
-    text-align: center; /* Center the title */
+    text-align: center;
 }
 
 .category-list {
-    display: grid; /* Use grid layout */
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Automatically adjust columns */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 25px;
-    justify-items: center; /* Centers items within each grid cell */
-    width: 100%; /* Ensure grid takes full width */
-    max-width: 1200px; /* Set a max-width for the grid */
-    margin: 0 auto; /* Horizontally center the grid */
+    justify-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .category {
     background: white;
-    padding: 0; /* Removed padding to allow the circle shape */
-    border-radius: 50%; /* Makes the container circular */
-    color: #3CB371; /* Mint Green for text */
+    padding: 0;
+    border-radius: 50%;
+    color: #3CB371;
     font-weight: 600;
     border: 2px solid #3CB371;
     cursor: pointer;
-    width: 130px; /* Smaller circle */
-    height: 130px; /* Smaller circle */
+    width: 130px;
+    height: 130px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,15 +136,14 @@ nav .menu-toggle div {
 .category img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Makes sure image fits the circle */
-    border-radius: 50%; /* Makes the image circular */
-    filter: brightness(0.6); /* Darkens the image */
+    object-fit: cover;
+    border-radius: 50%;
+    filter: brightness(0.6);
 }
 
-/* Centering category name inside the circle */
 .category span {
     position: absolute;
-    color: #ffffff; /* Text color changed to soft orange */
+    color: #ffffff;
     font-size: 1.5rem;
     font-weight: 700;
     z-index: 1;
@@ -158,12 +152,11 @@ nav .menu-toggle div {
 .category:hover {
     background: #3CB371;
     color: white;
-    transform: scale(1.1); /* Adds scaling effect on hover */
+    transform: scale(1.1);
 }
 
-/* Featured Products */
 .featured {
-    padding: 0 20px 50px; /* Removed top padding */
+    padding: 0 20px 50px;
 }
 
 .featured h2 {
@@ -179,12 +172,12 @@ nav .menu-toggle div {
 }
 
 .product {
-    background: #fff; /* White */
+    background: #fff;
     padding: 30px;
     border-radius: 15px;
     text-align: center;
-    border: 1px solid #e0e0e0; /* Subtle border */
-    width: 300px; /* Increased size */
+    border: 1px solid #e0e0e0;
+    width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -200,18 +193,18 @@ nav .menu-toggle div {
 
 .product img {
     width: 100%;
-    height: 100%; /* Box-shaped image */
+    height: 100%;
     object-fit: cover;
     border-radius: 10px;
 }
 
 .price {
-    color: #FF8C00; /* Soft Orange */
+    color: #FF8C00;
     font-weight: 700;
 }
 
 button {
-    background: #3CB371; /* Mint Green */
+    background: #3CB371;
     color: white;
     padding: 12px 18px;
     border: none;
@@ -222,14 +215,13 @@ button {
 }
 
 button:hover {
-    background: #FF8C00; /* Soft Orange */
+    background: #FF8C00;
     color: white;
     transition: background-color 0.3s;
 }
 
-/* Footer */
 footer {
-    background: #1c1c1c; /* Dark Gray (Close to Black) */
+    background: #1c1c1c;
     color: white;
     padding: 30px 20px;
     text-align: left;
@@ -286,7 +278,6 @@ footer {
     color: white;
 }
 
-/* Footer Newsletter */
 .footer-section input[type="email"] {
     padding: 10px;
     width: 100%;
@@ -302,7 +293,7 @@ footer {
 }
 
 .footer-section button {
-    background: #FF8C00; /* Soft Orange */
+    background: #FF8C00;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -313,37 +304,36 @@ footer {
 }
 
 .footer-section button:hover {
-    background: #3CB371; /* Mint Green */
+    background: #3CB371;
     color: white;
 }
 
-/* Mobile Responsiveness */
 @media (max-width: 768px) {
     .category-list {
-        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /* Adjust columns for tablet-sized screens */
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     }
 
     nav ul {
-        display: none; /* Hide the menu on smaller screens */
+        display: none;
     }
 
     nav .menu-toggle {
-        display: flex; /* Show the hamburger menu on smaller screens */
+        display: flex;
     }
 }
 
 @media (max-width: 480px) {
     .category-list {
-        grid-template-columns: 1fr 1fr; /* Stack two items per row on mobile */
-        gap: 15px; /* Reduce gap for mobile */
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
     }
 
     nav ul {
-        display: none; /* Hide the menu on smaller screens */
+        display: none;
     }
 
     nav .menu-toggle {
-        display: flex; /* Show the hamburger menu */
+        display: flex;
     }
 
     .hero {
@@ -359,7 +349,6 @@ footer {
     }
 }
 
-/* Show navigation menu when hamburger menu is clicked */
 nav.active ul {
     display: flex;
     flex-direction: column;
@@ -377,5 +366,5 @@ nav.active ul li {
 }
 
 nav.active .menu-toggle div {
-    background-color: #ff6347; /* Change color of burger icon when active */
+    background-color: #ff6347;
 }
